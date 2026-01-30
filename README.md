@@ -144,5 +144,29 @@ git clone [https://github.com/Manjunathask/crop_recommendation_system.git](https
 * [ ] **Vernacular Support**: Hindi, Kannada, and Telugu language options.
 
 ---
+## 🙏 Acknowledgments
 
+- **Kaggle**: For crop recommendation dataset
+- **Databricks**: For sponsoring the AI challenge and platform
+- **Codebasics & Indian Data Club**: For organizing the hackathon
+
+---
+
+## 📧 Contact
+
+**Manjunath Ask**  
+- GitHub: [@Manjunathask](https://github.com/Manjunathask)
+- LinkedIn: [Manjunatha_S_K](https://www.linkedin.com/in/manjunatha-s-k/)
+- Email: skmanjunath16@gmail.com
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+**Built with ❤️ for Indian farmers and sustainable agriculture**
+---
 **Built for the Databricks AI Challenge 2026**
