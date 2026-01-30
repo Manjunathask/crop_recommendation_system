@@ -23,3 +23,6 @@ silver/03_state_weather.ipynb
 silver/04_state_yield.ipynb
 gold/01_market_summary.ipynb
 gold/02_regional_yield_stats.ipynb
+silver/05_state_yield.ipynb
+UI/01_ui_state_only.ipynb
+UI/02_main_ui_state_with_soil.ipynb
