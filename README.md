@@ -87,3 +87,62 @@ graph TD
     G2 --> G3
     G3 --> Dashboard
     User --> Dashboard
+
+```
+
+---
+
+## 📊 Data & ML Pipeline
+
+### 1. Data Sources (Integrated 5 Heterogeneous Datasets)
+
+* **Crop Recommendation**: 2,200 samples (Soil nutrients, climate, pH).
+* **Weather History (1997-2020)**: 24 years of granular climate data.
+* **Mandi Market Prices**: 500k+ transactions for price forecasting.
+* **Soil Profiles**: State-wise average N-P-K distributions.
+* **Production Yields**: Historical yield-per-hectare statistics.
+
+### 2. Machine Learning Workflow
+
+| Component | Technology | Description |
+| --- | --- | --- |
+| **Classification** | Scikit-Learn Random Forest | Trained on 15 crops. Uses `MLflow` for experiment tracking and model registry. |
+| **Forecasting** | Facebook Prophet | **Distributed Training** using PySpark `applyInPandas` to train 15 crop-specific models in parallel. |
+| **Orchestration** | Databricks Workflows | Automated pipeline from ingestion to inference. |
+| **Governance** | Unity Catalog | Full lineage tracking and access control. |
+
+---
+
+## 📈 Key Results
+
+* **Model Accuracy**: The Agronomist model achieves **88% accuracy** on the test set.
+* **Market Insights**: Successfully captures seasonal price trends with a MAPE of ~12%.
+* **Impact**: Potential to increase farmer ROI by **20-25%** by avoiding high-risk/low-return crops.
+
+---
+
+## 🚀 How to Run
+
+1. **Clone the Repo**:
+```bash
+git clone [https://github.com/Manjunathask/crop_recommendation_system.git](https://github.com/Manjunathask/crop_recommendation_system.git)
+
+```
+
+
+2. **Import to Databricks**: Upload the folders (`bronze`, `silver`, `gold`, `UI`) to your workspace.
+3. **Setup Data**: Run `bronze_and_setup/00_setup_and_ingestion.ipynb` to initialize the Unity Catalog and download datasets.
+4. **Run Pipeline**: Execute the Silver and Gold notebooks to train models.
+5. **Launch UI**: Open `UI/02_main_ui_state_with_soil.ipynb`, enter your soil details (e.g., N=40, P=50, K=50), and view recommendations.
+
+---
+
+## 🔮 Future Roadmap
+
+* [ ] **Mobile App**: React Native frontend for field usage.
+* [ ] **IoT Integration**: Real-time soil sensors feeding into the Bronze layer.
+* [ ] **Vernacular Support**: Hindi, Kannada, and Telugu language options.
+
+---
+
+**Built for the Databricks AI Challenge 2026**
