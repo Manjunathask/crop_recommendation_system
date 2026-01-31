@@ -98,8 +98,6 @@ graph TD
 
 ---
 
-## 📊 Data & ML Pipeline
-
 ### 1. Data Sources (Integrated 5 Heterogeneous Datasets)
 
 * **Crop Recommendation**: 2,200 samples (Soil nutrients, climate, pH).
@@ -114,15 +112,13 @@ graph TD
 | --- | --- | --- |
 | **Classification** | Scikit-Learn Random Forest | Trained on 15 crops. Uses `MLflow` for experiment tracking and model registry. |
 | **Forecasting** | Facebook Prophet | **Distributed Training** using PySpark `applyInPandas` to train 15 crop-specific models in parallel. |
-| **Orchestration** | Databricks Workflows | Automated pipeline from ingestion to inference. |
 | **Governance** | Unity Catalog | Full lineage tracking and access control. |
 
 ---
 
 ## 📈 Key Results
 
-* **Model Accuracy**: The Agronomist model achieves **88% accuracy** on the test set.
-* **Market Insights**: Successfully captures seasonal price trends with a MAPE of ~12%.
+* **Market Insights**: Successfully captures seasonal price trends.
 * **Impact**: Potential to increase farmer ROI by **20-25%** by avoiding high-risk/low-return crops.
 
 ---
