@@ -13,6 +13,11 @@ This project solves the "What should I grow?" dilemma for Indian farmers by comb
 
 Unlike traditional systems that only check if a crop *can* grow, our dual-AI approach ensures farmers choose crops that are both **biologically viable** and **economically profitable**.
 
+
+### 🎥 Watch the Explainer
+
+https://github.com/user-attachments/assets/b1fb6427-cf35-4c32-9085-fb0fb2fa48b6
+
 ---
 
 ## 📋 Problem Statement
