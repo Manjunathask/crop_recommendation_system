@@ -125,7 +125,7 @@ graph TD
 
 1. **Clone the Repo**:
 ```bash
-git clone [https://github.com/Manjunathask/crop_recommendation_system.git](https://github.com/Manjunathask/crop_recommendation_system.git)
+git clone https://github.com/Manjunathask/crop_recommendation_system.git
 
 ```
 
