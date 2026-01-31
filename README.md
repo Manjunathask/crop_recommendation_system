@@ -32,11 +32,17 @@ Indian farmers face critical decisions each planting season. Making the wrong ch
 
 1. **🧑‍🌾 The Agronomist (Random Forest)**: *"Can this crop grow here?"*
    - Analyzes N, P, K, pH, Temperature, Humidity, and Rainfall.
-   - **88% Accuracy** in predicting crop viability.
+
+* **Purpose:** Recommends the optimal crop to plant based on soil composition (N, P, K) and weather conditions.
+* **Rationale:** Chosen for its high accuracy on tabular data and ability to model complex, non-linear relationships between soil health and crop yield.
 
 2. **💼 The Economist (Facebook Prophet)**: *"Should I grow this crop?"*
    - Forecasts market prices 12 months into the future.
    - Calculates **Risk Volatility** and **Projected ROI**.
+   
+* **Purpose:** Forecasts market prices 12 months into the future to help farmers plan for profitability.
+* **Rationale:** Selected for its robust handling of seasonal harvest cycles and resilience to missing or irregular market data points.
+
 
 ---
 
